@@ -4,12 +4,12 @@ Translate words from and to your native language anywhere
 
 ### How to install the script
 ```bash
-$ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/
+$ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/anytranslate
 ```
 
 Now you simply need to add 
 ```lua
-dofile("anytranslate.lua")
+dofile("./anytranslate/anytranslate.lua")
 ```
 to the init.lua file.
 > If you don't have an init.lua file, just create it
