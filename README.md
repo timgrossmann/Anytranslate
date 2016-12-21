@@ -4,6 +4,8 @@ Translate words from and to your native language, anywhere.
 
 ![anytranslate gif](http://i.giphy.com/3o7TKFyolIn4dDJ2xi.gif)
 
+---
+
 ### How to install the script
 ```bash
 $ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/anytranslate
@@ -16,12 +18,16 @@ dofile("./anytranslate/anytranslate.lua")
 to the init.lua file.
 > If you don't have an init.lua file, just create it
 
+---
+
 ### How to install Hammerspoon
 Go the the [HammerSpoon Webpage](http://www.hammerspoon.org) and check out "How do I install it?"
 
 Once installed just make sure you have accessibility enabled in the preferences.
 
 <img src="http://i65.tinypic.com/sbua2e.png" width="50%"/>
+
+---
 
 ### Setup
 Enter your keys and languages into the script file. Defaults are "de"(german) to en("english")
@@ -39,6 +45,10 @@ local NATIVE_LANG = <YOUR NATIVE LANGUAGE>
 local INTO_LANG = <DEFAULT LANGUAGE>  --In what language to you want to tranlaste the text if you enter your native language
 local LANG_HINTS = "[de,en]" --Prefer some languages (will be prefered if detection is not surea)
 ```
+
+---
+
+
 ### Usage
 Start with the hotkey `⌃⌥⌘T`. Once you start typing, translations will be displayed once a valid word is entered.
 They can be choosen with `⌘1-9` or by pressing the arrow keys and Enter.
@@ -47,6 +57,8 @@ If you want to change the hotkey just replace the "T" on the second line of the 
 ```lua
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
 ```
+
+---
 
 #### Supported languages: 
 > en, es, de, fr, it, pl, ru, tr, uk  
