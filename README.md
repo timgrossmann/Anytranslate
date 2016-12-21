@@ -34,3 +34,7 @@ Translate words from and to your language anywhere
   - it-en
   - tr-ru
   - tr-en
+
+
+Translate key: https://tech.yandex.com/translate/
+Dictionary key: https://tech.yandex.com/dictionary/
