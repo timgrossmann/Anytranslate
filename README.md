@@ -17,9 +17,9 @@ to the init.lua file.
 ### How to install Hammerspoon
 Go the the [HammerSpoon Webpage](http://www.hammerspoon.org) and check out "How do I install it?"
 
-Once installed just make sure you have accessibility enabled.
+Once installed just make sure you have accessibility enabled in the preferences.
 
-![](./img)
+![enable accessibility](http://i65.tinypic.com/sbua2e.png)
 
 ### Setup
 Enter your keys and languages into the script file. Defaults are "de"(german) to en("english")
