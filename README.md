@@ -4,9 +4,15 @@ Translate words from and to your native language anywhere
 
 ### Setup
 Enter your keys and languages into the script file. Defaults are "de"(german) to en("english")
+> You can get the translation api key here: https://tech.yandex.com/translate/  
+> And the dictionary api key here: https://tech.yandex.com/dictionary/  
+
+> Just register for free and click "Get a free API key."
+
+
 ```lua
 local TRANS_KEY = <YOUR KEY>
-local DICT_KEY = >YOUR KEY>
+local DICT_KEY = <YOUR KEY>
         
 local NATIVE_LANG = <YOUR NATIVE LANGUAGE>
 local INTO_LANG = <DEFAULT LANGUAGE>  --In what language to you want to tranlaste the text if you enter your native language
@@ -53,6 +59,3 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
   - it-en
   - tr-ru
   - tr-en
-
-Translate key: https://tech.yandex.com/translate/
-Dictionary key: https://tech.yandex.com/dictionary/
