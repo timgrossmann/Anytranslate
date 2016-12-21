@@ -2,6 +2,8 @@
 Translate words from and to your native language anywhere
 > This script is based on [Anycomplete](https://github.com/nathancahill/Anycomplete)
 
+![anytranslate gif](http://i.giphy.com/3o7TKFyolIn4dDJ2xi.gif)
+
 ### How to install the script
 ```bash
 $ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/anytranslate
