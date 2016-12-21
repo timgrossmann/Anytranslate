@@ -77,9 +77,9 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
   - it-ru
   - it-en
   - tr-ru
-  - tr-en
- 
-#### Why yandex ?
-- It's free
-- Minimalistic "get key" process
-- 2.000.000 calls per month
+  - tr-en  
+  
+> Why yandex ?  
+        - It's free  
+        - Minimalistic "get key" process  
+        - 2.000.000 calls per month  
