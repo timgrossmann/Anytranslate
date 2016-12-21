@@ -2,6 +2,18 @@
 Translate words from and to your native language anywhere
 > This script is based on [Anycomplete](https://github.com/nathancahill/Anycomplete)
 
+### How to install the script
+```bash
+$ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/anytranslate
+```
+
+### How to install Hammerspoon
+Go the the [HammerSpoon Webpage](http://www.hammerspoon.org) and check out "How do I install it?"
+
+Once installed just make sure you have accessibility enabled.
+
+![](./img)
+
 ### Setup
 Enter your keys and languages into the script file. Defaults are "de"(german) to en("english")
 > You can get the translation api key here: https://tech.yandex.com/translate/  
