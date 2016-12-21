@@ -3,19 +3,15 @@ Translate words from and to your native language anywhere
 > This script is based on [Anycomplete](https://github.com/nathancahill/Anycomplete)
 
 ### Usage
-
 Start with the hotkey `⌃⌥⌘T`. Once you start typing, translations will be displayed once a valid word is entered.
 They can be choosen with `⌘1-9` or by pressing the arrow keys and Enter.
-Pressing `⌘C` copies the selected item to the clipboard.
 
-The hotkey can be changed by passing in arguments to
-`registerDefaultBindings` call (in your `~/.hammerspoon/init.lua` file)
-such as:
+If you want to change the hotkey just replace the "T" on the second line of the script with your favored key
+```lua
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
+```
 
-    anycomplete.registerDefaultBindings({"cmd", "ctrl"}, 'L')
-
-
-#### Supported languages:  
+#### Supported languages: 
 > en, es, de, fr, it, pl, ru, tr, uk  
 
 > Supported translations:
