@@ -4,8 +4,15 @@ Translate words from and to your native language anywhere
 
 ### How to install the script
 ```bash
-$ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/anytranslate
+$ git clone https://github.com/timgrossmann/Anytranslate.git ~/.hammerspoon/
 ```
+
+Now you simply need to add 
+```lua
+dofile("anytranslate.lua")
+```
+to the init.lua file.
+> If you don't have an init.lua file, just create it
 
 ### How to install Hammerspoon
 Go the the [HammerSpoon Webpage](http://www.hammerspoon.org) and check out "How do I install it?"
