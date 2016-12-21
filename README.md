@@ -15,7 +15,7 @@ Now you simply need to add
 ```lua
 dofile("./anytranslate/anytranslate.lua")
 ```
-to the init.lua file.
+to the init.lua file inside of the .hammerspoon folder.
 > If you don't have an init.lua file, just create it
 
 ---
