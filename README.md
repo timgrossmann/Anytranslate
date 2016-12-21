@@ -2,6 +2,16 @@
 Translate words from and to your native language anywhere
 > This script is based on [Anycomplete](https://github.com/nathancahill/Anycomplete)
 
+### Setup
+Enter your keys and languages into the script file. Defaults are "de"(german) to en("english")
+```lua
+local TRANS_KEY = <YOUR KEY>
+local DICT_KEY = >YOUR KEY>
+        
+local NATIVE_LANG = <YOUR NATIVE LANGUAGE>
+local INTO_LANG = <DEFAULT LANGUAGE>  --In what language to you want to tranlaste the text if you enter your native language
+local LANG_HINTS = "[de,en]" --Prefer some languages (will be prefered if detection is not surea)
+```
 ### Usage
 Start with the hotkey `⌃⌥⌘T`. Once you start typing, translations will be displayed once a valid word is entered.
 They can be choosen with `⌘1-9` or by pressing the arrow keys and Enter.
