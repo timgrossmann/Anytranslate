@@ -43,7 +43,7 @@ local DICT_KEY = <YOUR KEY>
         
 local NATIVE_LANG = <YOUR NATIVE LANGUAGE>
 local INTO_LANG = <DEFAULT LANGUAGE>  --In what language to you want to tranlaste the text if you enter your native language
-local LANG_HINTS = "[de,en]" --Prefer some languages (will be prefered if detection is not surea)
+local LANG_HINTS = "de,en" --Prefer some languages (will be prefered if detection is not surea)
 ```
 
 ---

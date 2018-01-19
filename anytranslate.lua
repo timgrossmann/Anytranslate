@@ -12,7 +12,7 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
     -- Define the language you want to use
     local NATIVE_LANG = "de"
     local INTO_LANG = "en"
-    local LANG_HINTS = "[de,en]"
+    local LANG_HINTS = "de,en"
     
     local current = hs.application.frontmostApplication()
     local chooser = hs.chooser.new(function(choosen)
